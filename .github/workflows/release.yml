@@ -43,6 +43,7 @@ jobs:
 
   release:
     needs: build
+    permissions: contents: write
     runs-on: ubuntu-22.04
     steps:
       - name: Download all bundles
@@ -57,5 +58,3 @@ jobs:
             **/*.tar.gz
             **/*.msi
             **/*.exe
-            **/*.dmg
-          generate_release_notes: true
