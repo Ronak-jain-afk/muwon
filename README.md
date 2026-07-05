@@ -12,6 +12,7 @@ It is designed around an immersive dark UI where album art stays at the center a
 - [Getting Started](#getting-started)
 - [Scripts](#scripts)
 - [Design & Product Docs](#design--product-docs)
+- [GitHub Releases](#github-releases)
 - [Language Composition](#language-composition)
 - [Contributing](#contributing)
 - [License](#license)
@@ -137,6 +138,16 @@ Defined in `package.json`:
 - [`DESIGN.md`](./DESIGN.md): color system, typography, layout, components, accessibility rules
 
 If you are making UI changes, align with these documents first.
+
+## GitHub Releases
+
+muwon is distributed through [GitHub Releases](https://github.com/Ronak-jain-afk/muwon/releases). Each release includes pre-built binaries for supported platforms:
+
+- **macOS** – Universal binary (Apple Silicon & Intel)
+- **Windows** – `.msi` installer
+- **Linux** – AppImage or `.deb` package
+
+Visit the [Releases page](https://github.com/Ronak-jain-afk/muwon/releases) to download the latest version, or check the release notes for changelog details and platform-specific instructions.
 
 ## Language Composition
 
