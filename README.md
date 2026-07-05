@@ -143,7 +143,7 @@ If you are making UI changes, align with these documents first.
 
 muwon is distributed through [GitHub Releases](https://github.com/Ronak-jain-afk/muwon/releases). Each release includes pre-built binaries for supported platforms:
 
-- **macOS** – Universal binary (Apple Silicon & Intel)
+- **macOS** – Universal binary (Apple Silicon & Intel) [not yet added support for macOS]
 - **Windows** – `.msi` installer
 - **Linux** – AppImage or `.deb` package
 
