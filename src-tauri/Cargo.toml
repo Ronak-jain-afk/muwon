@@ -1,0 +1,28 @@
+[package]
+name = "muwon"
+version = "0.1.0"
+edition = "2021"
+description = "A lightweight music player for Windows"
+
+[lib]
+name = "muwon_lib"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[[bin]]
+name = "muwon"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+rodio = "0.19"
+lofty = "0.20"
+rusqlite = { version = "0.31", features = ["bundled"] }
+blake3 = "1"
+uuid = { version = "1", features = ["v4"] }
+fastrand = "2"
+crossbeam-channel = "0.5"
